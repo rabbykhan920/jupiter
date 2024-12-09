@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jupiter | HTML OnePage Tamplate</title>
+     <!-- links -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+     <link rel="stylesheet" href="style.css">
+     <!-- links -->
+   <!-- google fonts --> 
+    <!-- font-Josefin -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- font-Josefin -->
+    <!-- font- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- font- -->
+    <!-- google fonts -->
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/b584887cdf.js" crossorigin="anonymous"></script>
+    <!-- font awsome -->
+   
+     <style>
+      .font-josefin{
+        font-family: "Josefin Sans", sans-serif;
+      }
+     </style>
+     
+     <style>
+      .font-rubik{
+        font-family: "Rubik", sans-serif;
+      }
+     </style>
+ 
+      <style>
+        /* smooth scrolling for entire document  */
+        html{
+         scroll-behavior: smooth;
+        }
+   </style>
+</head>
+<body>
+    <!-- header-start -->
+    <header class="bg-gradient-to-r from-[#5040F4] to-[#31B4FE]">
+        <!-- navbar  -->
+        <nav class="font-josefin">
+            <div class="navbar text-white ">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Home</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">About</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Service</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Gallary</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Tastimonial</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Price</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn text-white bg-transparent hover:bg-transparent shadow-none border-none md:text-2xl text-xl font-bold">Jupiter</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Home</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">About</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Service</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Gallary</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Tastimonial</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Price</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Contact</a></li>
+                    
+                  </ul>
+                </div>
+
+              </div>
+              
+        </nav>
+        <!-- navbar  -->
+        <!-- banner -->
+            
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+             
+                <div class="hero lg:py-20 md:py-12 py-10 text-white">
+                    <div class="hero-content flex-col lg:flex-row-reverse lg:gap-48">
+                      <img
+                        src="img/w1.png"
+                        class="md:max-w-sm" />
+                      <div>
+                        <h1 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">The best <br>
+                            landing page for <br>
+                            your digital product.</h1>
+                        <p class="py-6 font-rubik">
+                            Our cloud computing platform was built with simplicity <br>
+                            so managing infrastructure is easy.
+                        </p>
+                        <button class="btn bg-[#103178] text-white border-none hover:bg-white hover:text-[#103178] font-josefin font-bold text-xl">Dicover Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide4" class="btn btn-circle bg-transparent hover:bg-transparent border-none md:text-4xl text-2xl text-white">❮</a>
+                <a href="#slide2" class="btn btn-circle bg-transparent hover:bg-transparent border-none md:text-4xl text-2xl text-white">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+             
+                <div class="hero lg:py-20 md:py-12 py-10 text-white">
+                    <div class="hero-content flex-col lg:flex-row-reverse lg:gap-48">
+                      <img
+                        src="img/w2 (1).png"
+                        class="md:max-w-sm" />
+                      <div>
+                        <h1 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">The best <br>
+                            landing page for <br>
+                            your digital product.</h1>
+                        <p class="py-6 font-rubik">
+                            Our cloud computing platform was built with simplicity <br>
+                            so managing infrastructure is easy.
+                        </p>
+                        <button class="btn bg-[#103178] text-white border-none hover:bg-white hover:text-[#103178] font-josefin font-bold text-xl">Dicover Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide1" class="btn btn-circle bg-transparent hover:bg-transparent border-none md:text-4xl text-2xl text-white">❮</a>
+                <a href="#slide3" class="btn btn-circle bg-transparent hover:bg-transparent border-none md:text-4xl text-2xl text-white">❯</a>
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+            
+                <div class="hero lg:py-20 md:py-12 py-10 text-white">
+                    <div class="hero-content flex-col lg:flex-row-reverse lg:gap-48">
+                      <img
+                        src="img/w3.png"
+                        class="md:max-w-sm" />
+                      <div>
+                        <h1 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">The best <br>
+                            landing page for <br>
+                            your digital product.</h1>
+                        <p class="py-6 font-rubik">
+                            Our cloud computing platform was built with simplicity <br>
+                            so managing infrastructure is easy.
+                        </p>
+                        <button class="btn bg-[#103178] text-white border-none hover:bg-white hover:text-[#103178] font-josefin font-bold text-xl">Dicover Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide2" class="btn btn-circle bg-transparent hover:bg-transparent border-none md:text-4xl text-2xl text-white">❮</a>
+                <a href="#slide4" class="btn btn-circle bg-transparent hover:bg-transparent border-none md:text-4xl text-2xl text-white">❯</a>
+              </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+             
+                <div class="hero lg:py-20 md:py-12 py-10 text-white">
+                    <div class="hero-content flex-col lg:flex-row-reverse lg:gap-48">
+                      <img
+                        src="img/w4.png"
+                        class="md:max-w-sm" />
+                      <div>
+                        <h1 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">The best <br>
+                            landing page for <br>
+                            your digital product.</h1>
+                        <p class="py-6 font-rubik">
+                            Our cloud computing platform was built with simplicity <br>
+                            so managing infrastructure is easy.
+                        </p>
+                        <button class="btn bg-[#103178] text-white border-none hover:bg-white hover:text-[#103178] font-josefin font-bold text-xl">Dicover Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide3" class="btn btn-circle bg-transparent hover:bg-transparent border-none md:text-4xl text-2xl text-white">❮</a>
+                <a href="#slide1" class="btn btn-circle bg-transparent hover:bg-transparent border-none md:text-4xl text-2xl text-white">❯</a>
+              </div>
+            </div>
+          </div>    
+        
+        <!-- banner -->
+    </header>
+    <!-- header-end -->
+     <!-- main start -->
+     <main>
+        <!--book your flight  -->
+        <section class="lg:my-24 md:my-16 my-8">
+         <!-- hero part -->
+
+         <div class="hero">
+            <div class="hero-content flex-col lg:flex-row lg:gap-48">
+              <img
+                src="img/wtach-section-1.png"
+                class="md:max-w-sm" />
+              <div>
+                <i class="fa-solid fa-paper-plane md:mb-10 mb-6 text-3xl text-white bg-[#1980FA] p-5 rounded-full"></i>
+                <h1 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">Book Your flight <br> from anywhere</h1>
+                <p class="md:py-6 py-3 font-rubik text-gray-500">
+                    Duis rhoncus dui venenatis consequat porttitor. Etiam aliquet congue <br>consequat. In posuere, nunc sit amet laoreet blandit, urna sapien <br> imperdiet lectus, et molestie sem tortor quis dui.
+                </p>
+                <button class="btn bg-[#1980FA] text-white hover:bg-[#1980FA]">Get Started</button>
+              </div>
+            </div>
+          </div>
+         
+         <!-- hero part -->
+        </section>
+        <!--book your flight  -->
+        <!-- water resistant watch -->
+        <section class="lg:my-24 md:my-16 my-8">
+        <!-- hero part -->
+        
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row-reverse lg:gap-48">
+              <img
+              src="img/wtach-section-2.png"
+              class="md:max-w-sm" />
+              <div>
+                <i class="fa-solid fa-basketball md:mb-10 mb-6 text-3xl text-white bg-[#1980FA] p-5 rounded-full"></i>
+                <h1 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">World best water <br> resistant watch</h1>
+                <p class="md:py-6 py-3 font-rubik text-gray-500">
+                    Duis rhoncus dui venenatis consequat porttitor. Etiam aliquet congue <br> consequat. In posuere, nunc sit amet laoreet blandit, urna sapien <br> imperdiet lectus, et molestie sem tortor quis dui
+                </p>
+                <button class="btn  bg-[#1980FA] text-white hover:bg-[#1980FA]">Get Started</button>
+              </div>
+            </div>
+          </div>
+        
+        <!-- hero part -->
+        </section>
+        <!-- water resistant watch -->
+        <!-- exclusive features -->
+        <section class="lg:my-24 md:my-16 my-8 md:container md:mx-auto">
+         <!-- heading -->
+         <div class="text-center md:mb-20 mb-8">
+            <i class="fa-brands fa-codepen md:mb-10 mb-6 text-3xl text-white bg-[#1980FA] p-5 rounded-full"></i>
+          <h2 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">Much more <br> exclusive features</h2>
+         </div>
+         <!-- heading -->
+          <!-- items -->
+          <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3"> 
+          <!-- card-1 -->
+          <div class="card bg-base-100 shadow-xl rounded-none py-6">
+           <div class="text-center">
+            <i class="fa-solid fa-pencil text-3xl text-white bg-[#1980FA] p-5 rounded-full"></i>
+           </div>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-josefin md:text-2xl font-bold">Pixel Perfect</h2>
+              <p class="font-rubik text-gray-500">In at iaculis lorem ipsum. <br> Praesent tempor dictum</p>
+             
+            </div>
+          </div>
+          <!-- card-1 -->
+          <!-- card-2 -->
+          <div class="card bg-base-100 shadow-xl rounded-none py-6">
+            <div class="text-center">
+                <i class="fa-solid fa-cloud text-3xl text-white bg-[#9919FA] p-5 rounded-full"></i>
+            </div>
+             <div class="card-body items-center text-center">
+               <h2 class="card-title font-josefin md:text-2xl font-bold">Cloud Service</h2>
+               <p class="font-rubik text-gray-500">In at iaculis lorem ipsum. <br> Praesent tempor dictum</p>
+              
+             </div>
+           </div>
+          <!-- card-2 -->
+          <!-- card-3 -->
+          <div class="card bg-base-100 shadow-xl rounded-none py-6">
+            <div class="text-center">
+                <i class="fa-solid fa-crop text-3xl text-white bg-[#FAA719] p-5 rounded-full"></i>
+            </div>
+             <div class="card-body items-center text-center">
+               <h2 class="card-title font-josefin md:text-2xl font-bold">Vector Editing</h2>
+               <p class="font-rubik text-gray-500">In at iaculis lorem ipsum. <br> Praesent tempor dictum</p>
+              
+             </div>
+           </div>
+          <!-- card-3 -->
+          <!-- card-4 -->
+          <div class="card bg-base-100 shadow-xl rounded-none py-6">
+            <div class="text-center">
+                <i class="fa-solid fa-database text-3xl text-white bg-[#19B5FA] p-5 rounded-full"></i>
+            </div>
+             <div class="card-body items-center text-center">
+               <h2 class="card-title font-josefin md:text-2xl font-bold">Export Presets</h2>
+               <p class="font-rubik text-gray-500">In at iaculis lorem ipsum. <br> Praesent tempor dictum</p>
+              
+             </div>
+           </div>
+          <!-- card-4 -->
+
+              
+        </div>
+          <!-- items -->
+        </section>
+        <!-- exclusive features -->
+        <!-- special edition -->
+        <section class="lg:my-24 md:my-16 my-8 bg-gradient-to-r from-[#5040F4] to-[#31B4FE]">
+        
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                 
+                    <div class="hero lg:py-20 md:py-12 py-10 text-white">
+                        <div class="hero-content flex-col lg:flex-row-reverse lg:gap-48">
+                          <img
+                            src="img/w1.png"
+                            class="md:max-w-sm" />
+                          <div>
+                            <h1 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">Apple Watch 3 <br> Spacial Editing</h1>
+                            <p class="py-6 font-rubik">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem blanditiis <br> repellat, placeat, hic fuga odio necessitatibus vitae quo  animi possimus <br> repudiandae ratione. Dicta, nihil facere!
+                            </p>
+                            <button class="btn bg-[#103178] text-white border-none hover:bg-white hover:text-[#103178] font-josefin font-bold text-xl">Buy It Now</button>
+                            <h2 class="md:text-3xl text-xl font-bold font-josefin mt-10">Only<span class="md:text-5xl text-2xl font-extrabold font-josefin md:mt-8 mt-4"> $99</span></h2>
+                          </div>
+                        </div>
+                      </div>
+    
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide4" class="btn btn-circle bg-transparent hover:bg-transparent border-none md:text-4xl text-2xl text-white">❮</a>
+                    <a href="#slide2" class="btn btn-circle bg-transparent hover:bg-transparent border-none md:text-4xl text-2xl text-white">❯</a>
+                  </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                 
+                    <div class="hero lg:py-20 md:py-12 py-10 text-white">
+                        <div class="hero-content flex-col lg:flex-row-reverse lg:gap-48">
+                          <img
+                            src="img/w2.png"
+                            class="md:max-w-sm" />
+                          <div>
+                            <h1 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">Apple Watch 3 <br> Spacial Editing</h1>
+                            <p class="py-6 font-rubik">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem blanditiis <br> repellat, placeat, hic fuga odio necessitatibus vitae quo  animi possimus <br> repudiandae ratione. Dicta, nihil facere!
+                            </p>
+                            <button class="btn bg-[#103178] text-white border-none hover:bg-white hover:text-[#103178] font-josefin font-bold text-xl">Buy It Now</button>
+                            <h2 class="md:text-3xl text-xl font-bold font-josefin mt-10">Only<span class="md:text-5xl text-2xl font-extrabold font-josefin md:mt-8 mt-4"> $99</span></h2>
+                          </div>
+                        </div>
+                      </div>
+    
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide1" class="btn btn-circle bg-transparent hover:bg-transparent border-none md:text-4xl text-2xl text-white">❮</a>
+                    <a href="#slide3" class="btn btn-circle bg-transparent hover:bg-transparent border-none md:text-4xl text-2xl text-white">❯</a>
+                  </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                
+                    <div class="hero lg:py-20 md:py-12 py-10 text-white">
+                        <div class="hero-content flex-col lg:flex-row-reverse lg:gap-48">
+                          <img
+                            src="img/w3.png"
+                            class="md:max-w-sm" />
+                          <div>
+                            <h1 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">Apple Watch 3 <br> Spacial Editing</h1>
+                            <p class="py-6 font-rubik">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem blanditiis <br> repellat, placeat, hic fuga odio necessitatibus vitae quo  animi possimus <br> repudiandae ratione. Dicta, nihil facere!
+                            </p>
+                            <button class="btn bg-[#103178] text-white border-none hover:bg-white hover:text-[#103178] font-josefin font-bold text-xl">Buy It Now</button>
+                            <h2 class="md:text-3xl text-xl font-bold font-josefin mt-10">Only<span class="md:text-5xl text-2xl font-extrabold font-josefin md:mt-8 mt-4"> $99</span></h2>
+                          </div>
+                        </div>
+                      </div>
+    
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide2" class="btn btn-circle bg-transparent hover:bg-transparent border-none md:text-4xl text-2xl text-white">❮</a>
+                    <a href="#slide4" class="btn btn-circle bg-transparent hover:bg-transparent border-none md:text-4xl text-2xl text-white">❯</a>
+                  </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                 
+                    <div class="hero lg:py-20 md:py-12 py-10 text-white">
+                        <div class="hero-content flex-col lg:flex-row-reverse lg:gap-48">
+                          <img
+                            src="img/w4 (1).png"
+                            class="md:max-w-sm" />
+                          <div>
+                            <h1 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">Apple Watch 3 <br> Spacial Editing</h1>
+                            <p class="py-6 font-rubik">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem blanditiis <br> repellat, placeat, hic fuga odio necessitatibus vitae quo  animi possimus <br> repudiandae ratione. Dicta, nihil facere!
+                            </p>
+                            <button class="btn bg-[#103178] text-white border-none hover:bg-white hover:text-[#103178] font-josefin font-bold text-xl">Buy It Now</button>
+                            <h2 class="md:text-3xl text-xl font-bold font-josefin mt-10">Only<span class="md:text-5xl text-2xl font-extrabold font-josefin md:mt-8 mt-4"> $99</span></h2>
+                          </div>
+                        </div>
+                      </div>
+    
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide3" class="btn btn-circle bg-transparent hover:bg-transparent border-none md:text-4xl text-2xl text-white">❮</a>
+                    <a href="#slide1" class="btn btn-circle bg-transparent hover:bg-transparent border-none md:text-4xl text-2xl text-white">❯</a>
+                  </div>
+                </div>
+              </div>       
+            
+        </section>
+        <!-- special edition -->
+        <!-- exclusive watches -->
+        <section class="lg:my-24 md:my-16 my-8">
+          <!-- heading -->
+          <div class="text-center md:mb-20 mb-8">
+            <i class="fa-brands fa-codepen md:mb-10 mb-6 text-3xl text-white bg-[#1980FA] p-5 rounded-full"></i>
+          <h2 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">New arrivals <br> exclusive watches</h2>
+         </div>
+         <!-- heading -->
+         <!-- items -->
+         <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
+        <!-- card-1 -->
+        <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="img/watch-item-1.png"
+                alt="watch"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-josefin md:text-2xl font-bold">Apple Watch 3</h2>
+              <p class="text-[#1980FA] text-xl font-bold font-josefin">$180</p>
+              
+            </div>
+          </div>
+        <!-- card-1 -->
+        <!-- card-2 -->
+        <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="img/watch-item-2.png"
+                alt="watch"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-josefin md:text-2xl font-bold">Apple Watch 3</h2>
+              <p class="text-[#1980FA] text-xl font-bold font-josefin">$180</p>
+              
+            </div>
+          </div>
+        <!-- card-2 -->
+        <!-- card-3 -->
+        <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="img/watch-item-3.png"
+                alt="watch"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-josefin md:text-2xl font-bold">Apple Watch 3</h2>
+              <p class="text-[#1980FA] text-xl font-bold font-josefin">$180</p>
+              
+            </div>
+          </div>
+        <!-- card-3 -->
+        <!-- card-4 -->
+        <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="img/watch-item-1.png"
+                alt="watch"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-josefin md:text-2xl font-bold">Apple Watch 3</h2>
+              <p class="text-[#1980FA] text-xl font-bold font-josefin">$180</p>
+              
+            </div>
+          </div>
+        <!-- card-4 -->
+             
+        </div>
+         <!-- items -->
+        </section>
+        <!-- exclusive watches -->
+        <!-- our products -->
+        <section class="lg:my-24 md:my-16 my-8">
+          <!-- heading -->
+          <div class="text-center md:mb-20 mb-8">
+            <i class="fa-solid fa-bolt md:mb-10 mb-6 text-3xl text-white bg-[#1980FA] p-5 rounded-full"></i>
+          <h2 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">People always <br> loves our products</h2>
+         </div>
+         <!-- heading -->
+         <!-- review  -->
+         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
+         <!-- review-1 -->
+         <div class="card bg-base-100 shadow-xl py-5">
+             <div class="card-body items-center text-center">
+                 <p> i've read a ton of blog posts about how <br> some start up hit this milstone with ease <br> thay camp up an amazing idea that <br> just clicked made </p>
+                 <figure class="px-10 py-4">
+                     <img 
+                     src="img/testimonial-2.png"
+                     alt="person"
+                     class="rounded-full w-14" />
+                    </figure>
+                    <h2 class="card-title">Sayma sultana</h2>
+                    <p class="text-gray-500">Web developer</p>
+            </div>
+          </div>
+         <!-- review-1 -->
+         <!-- review-2 -->
+         <div class="card bg-base-100 shadow-xl py-5">
+            <div class="card-body items-center text-center">
+                <p> i've read a ton of blog posts about how <br> some start up hit this milstone with ease <br> thay camp up an amazing idea that <br> just clicked made </p>
+                <figure class="px-10 py-4">
+                    <img 
+                    src="img/testimonial-1.png"
+                    alt="person"
+                    class="rounded-full w-14" />
+                   </figure>
+                   <h2 class="card-title">Sayem Rahaman</h2>
+                    <p class="text-gray-500">Graphic Design</p>
+           </div>
+         </div>
+         <!-- review-2 -->
+         <!-- review-3 -->
+         <div class="card bg-base-100 shadow-xl py-5">
+            <div class="card-body items-center text-center">
+                <p> i've read a ton of blog posts about how <br> some start up hit this milstone with ease <br> thay camp up an amazing idea that <br> just clicked made </p>
+                <figure class="px-10 py-4">
+                    <img 
+                    src="img/testimonial-3.png"
+                    alt="person"
+                    class="rounded-full w-14" />
+                   </figure>
+                   <h2 class="card-title">Jhoni Zwe</h2>
+                   <p class="text-gray-500">Founder at Pixelite</p>
+           </div>
+         </div>
+         <!-- review-3 -->
+             
+             
+        </div>
+         <!-- review  -->
+        </section>
+        <!-- our products -->
+        <!-- loves our products -->
+        <section class="lg:my-24 md:my-16 my-8 lg:py-20 md:py-12 py-6 bg-gradient-to-r from-[#5040F4] to-[#31B4FE]" >
+          <!-- heading -->
+          <div class="text-center md:mb-20 mb-8">
+            <i class="fa-solid fa-dollar-sign md:mb-10 mb-6 text-3xl text-[#1980FA] bg-white p-5 rounded-full"></i>
+          <h2 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">People always <br> loves our products</h2>
+         </div>
+         <!-- heading -->
+         <!-- prodects -->
+         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
+        <!-- prodect-1 -->
+        <div class="card bg-base-100 shadow-xl rounded-lg">
+           
+            <div class="card-body items-center text-center space-y-5">
+                <p class="text-gray-500 font-rubik">1 User</p>
+              <h2 class="card-title font-josefin md:text-2xl font-bold">Regular Plan</h2>
+              <p class="text-gray-500 font-rubik">No extra hidden charge. All vat <br> Included.</p>
+              <h2 class="lg:text-6xl md:text-4xl text-3xl font-bold text-[#1980FA]">$19.99</h2>
+              <div class="card-actions">
+                <button class="btn bg-[#576EA0] text-white hover:bg-gradient-to-r from-[#5C66FB] to-[#674ED7] px-20 font-josefin text-xl">Get Started</button>
+              </div>
+            </div>
+          </div>
+        <!-- prodect-1 -->
+        <!-- prodect-2 -->
+        <div class="card bg-base-100 shadow-xl rounded-lg">
+           
+            <div class="card-body items-center text-center space-y-5">
+                <p class="text-gray-500 font-rubik">1 User</p>
+              <h2 class="card-title font-josefin md:text-2xl font-bold">Startup Plan</h2>
+              <p class="text-gray-500 font-rubik">No extra hidden charge. All vat <br> Included.</p>
+              <h2 class="lg:text-6xl md:text-4xl text-3xl font-bold text-[#1980FA]">$59.99</h2>
+              <div class="card-actions">
+                <button class="btn bg-gradient-to-r from-[#5C66FB] to-[#674ED7] text-white hover:bg-gradient-to-r from-[#5C66FB] to-[#674ED7] px-20 font-josefin text-xl">Get Started</button>
+              </div>
+            </div>
+          </div>
+        <!-- prodect-2 -->
+        <!-- prodect-3 -->
+        <div class="card bg-base-100 shadow-xl rounded-lg">
+           
+            <div class="card-body items-center text-center space-y-5">
+                <p class="text-gray-500 font-rubik">1 User</p>
+              <h2 class="card-title font-josefin md:text-2xl font-bold">Business Plan</h2>
+              <p class="text-gray-500 font-rubik">No extra hidden charge. All vat <br> Included.</p>
+              <h2 class="lg:text-6xl md:text-4xl text-3xl font-bold text-[#1980FA]">$99.99</h2>
+              <div class="card-actions">
+                <button class="btn bg-[#576EA0] text-white hover:bg-gradient-to-r from-[#5C66FB] to-[#674ED7] px-20 font-josefin text-xl">Get Started</button>
+              </div>
+            </div>
+          </div>
+        <!-- prodect-3 -->
+    
+        </div>
+         <!-- prodects -->
+        </section>
+        <!-- loves our products -->
+        <!-- nearest branch -->
+        <section class="lg:my-24 md:my-16 my-8">
+         <!-- branches -->
+         <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
+        <!-- branch-1 -->
+        <div class="card">
+            <figure class="px-10 pt-10">
+              <img
+                src="img/info-1.png"
+                alt="place"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-bold">Dubai</h2>
+              <p>2315 Al Shabab Street, Dubai,NY <br> 10007, UAE</p>
+              <p class="text-[#1980FA] text-xl font-bold font-josefin">212-798-1369</p>
+             
+            </div>
+          </div>
+        <!-- branch-1 -->
+        <!-- branch-2 -->
+        <div class="card">
+            <figure class="px-10 pt-10">
+              <img
+                src="img/info-2.png"
+                alt="place"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-bold">London</h2>
+              <p>2315 Small Street, London, NY <br> 10007, UK</p>
+              <p class="text-[#1980FA] text-xl font-bold font-josefin">212-798-1369</p>
+             
+            </div>
+          </div>
+        <!-- branch-2 -->
+        <!-- branch-3 -->
+        <div class="card">
+            <figure class="px-10 pt-10">
+              <img
+                src="img/info-3.png"
+                alt="place"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-bold">New York</h2>
+              <p>2315 Small Street, New York, NY <br> 10007, USA</p>
+              <p class="text-[#1980FA] text-xl font-bold font-josefin">212-798-1369</p>
+             
+            </div>
+          </div>
+        <!-- branch-3 -->
+                  
+        </div>
+         <!-- branches -->
+        </section>
+        <!-- nearest branch -->
+    </main>
+     <!-- main end -->
+     <!-- footer-start -->
+     <footer class="footer text-base-content p-10 lg:py-20 md:py-12 py-6 bg-gradient-to-r from-[#5040F4] to-[#31B4FE] text-white">
+        <aside>
+          <h2 class="text-2xl font-medium">About Us</h2>
+          <p class="text-base">
+            Far far away, behind the word <br> mountains, far from the countries <br> Vokalia and Consonantia, there live <br> the blind texts.
+          </p>
+        </aside>
+        <nav>
+          <h6 class="text-2xl text-white">Quick Link</h6>
+          <a class="link link-hover text-base">Home</a>
+          <a class="link link-hover text-base">Features</a>
+          <a class="link link-hover text-base">Pricing</a>
+          <a class="link link-hover text-base">Team</a>
+          <a class="link link-hover text-base">Contact Us!</a>
+        </nav>
+        <nav>
+          <h6 class="text-2xl text-white">Support</h6>
+          <a class="link link-hover text-base">Privacy Policy</a>
+          <a class="link link-hover text-base">Terms</a>
+          <a class="link link-hover text-base">FAQ</a>
+          <a class="link link-hover text-base">Support</a>
+        </nav>
+        <nav>
+          <h6 class="text-2xl text-white">Social</h6>
+          <p class="text-base">
+            Please connect with our social <br> profiles.
+          </p>
+          <div class="">
+            <span><a href="#"><i class="fa-brands fa-facebook mr-3 text-base"></i></a></span>
+            <span><a href="#"><i class="fa-brands fa-twitter mr-3 text-base"></i></a></span>
+            <span><a href="#"><i class="fa-brands fa-google mr-3 text-base"></i></a></span>
+            <span><a href="#"><i class="fa-brands fa-linkedin mr-3 text-base"></i></a></span>
+          </div>
+        </nav>
+      </footer>
+     <!-- footer-end -->
+
+</body>
+</html>
