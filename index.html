@@ -37,6 +37,43 @@
       }
      </style>
  
+ <style>
+       
+  ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+  }
+  li {
+      margin: 0 10px;
+  }
+  a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      padding: 5px;
+      position: relative; /* Needed for the pseudo-element */
+      transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  a::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      background-color: white;
+      transition: width 0.3s ease; 
+  }
+
+  
+  a:hover::after {
+      width: 100%; /* Expands the underline */
+  }
+</style>
+
       <style>
         /* smooth scrolling for entire document  */
         html{
@@ -69,26 +106,26 @@
                     <ul
                       tabindex="0"
                       class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Home</a></li>
-                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">About</a></li>
-                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Service</a></li>
-                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Gallary</a></li>
-                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Tastimonial</a></li>
-                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Price</a></li>
-                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Contact</a></li>
+                      <li><a class="text-base font-medium hover:bg-transparent">Home</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent">About</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent">Service</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent">Gallary</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent">Tastimonial</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent">Price</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent">Contact</a></li>
                     </ul>
                   </div>
                   <a class="btn text-white bg-transparent hover:bg-transparent shadow-none border-none md:text-2xl text-xl font-bold">Jupiter</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
-                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Home</a></li>
-                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">About</a></li>
-                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Service</a></li>
-                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Gallary</a></li>
-                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Tastimonial</a></li>
-                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Price</a></li>
-                    <li><a class="text-base font-medium hover:bg-transparent hover:border-b-2">Contact</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent">Home</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent">About</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent">Service</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent">Gallary</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent">Tastimonial</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent">Price</a></li>
+                    <li><a class="text-base font-medium hover:bg-transparent">Contact</a></li>
                     
                   </ul>
                 </div>
