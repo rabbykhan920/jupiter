@@ -1,0 +1,48 @@
+/* shape devaider1 */
+.custom-shape-divider-bottom-1734186639 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1734186639 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 204px;
+}
+
+.custom-shape-divider-bottom-1734186639 .shape-fill {
+    fill: #FFFFFF;
+}
+/* shape devaider1 */
+
+
+
+/* shape devaider2 */
+
+.custom-shape-divider-top-1734186834 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1734186834 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 204px;
+}
+
+.custom-shape-divider-top-1734186834 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* shape devaider2 */
