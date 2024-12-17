@@ -86,13 +86,20 @@
       width: 100%; /* Expands the underline */
   }
 </style>
+<!-- effect -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+<script>
+  AOS.init();
+</script>
+
+<!-- effect -->
 
 </head>
 <body>
     <!-- header-start -->
     <header class="bg-gradient-to-r from-[#5040F4] to-[#31B4FE]">
-     
         <!-- navbar  -->
         <nav class="font-josefin ">
             <div class="navbar lg:text-white ">
@@ -146,6 +153,8 @@
         <!-- banner -->
             
         <div class="carousel w-full">
+          
+          <div data-aos="fade-up"></div>
             <div id="slide1" class="carousel-item relative w-full">
              
                 <div class="hero lg:py-20 md:py-12 py-10 text-white">
@@ -178,6 +187,7 @@
                       <img
                         src="img/w2 (1).png"
                         class="md:max-w-sm" />
+                        <div data-aos="fade-up"></div>
                       <div>
                         <h1 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">The best <br>
                             landing page for <br>
@@ -315,6 +325,7 @@
           <h2 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">Much more <br> exclusive features</h2>
          </div>
          <!-- heading -->
+         <div data-aos="fade-right"></div>
           <!-- items -->
           <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3"> 
           <!-- card-1 -->
@@ -616,6 +627,7 @@
           <h2 class="lg:text-5xl md:text-3xl text-xl font-bold font-josefin">People always <br> loves our products</h2>
          </div>
          <!-- heading -->
+         <div data-aos="fade-right"></div>
          <!-- prodects -->
          <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
         <!-- prodect-1 -->
@@ -666,6 +678,7 @@
         </section>
         <!-- loves our products -->
         <!-- nearest branch -->
+        <div data-aos="fade-right"></div>
         <section class="lg:my-24 md:my-16 my-8">
          <!-- branches -->
          <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
@@ -761,6 +774,10 @@
         </nav>
       </footer>
      <!-- footer-end -->
-
+     <script>
+      AOS.init({
+        duration:1200
+      })
+    </script>
 </body>
 </html>
